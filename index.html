@@ -5,65 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
 </head>
-<body>
-    <div class="header">
-        <div class="logo">
-            HEADER LOGO
-        </div>
-        <div class="right-links">
-            <ul>
+<body class="landing">
+    <header> 
+        <div class="container">
+            <div class="logo">Header Logo</div>
+            <ul class="text">
                 <li>Header Link One</li>
                 <li>Header Link Two</li>
                 <li>Header Link Three</li>
             </ul>
         </div>
-    </div>
-    <div class="top-section">
-        <div class="top-left">
-            <h1>This website is awesome</h1>
-            <p class="top-font">This website has some subtext that goes here under the main title. It is a smaller font and the color is lower contrast</p>
-            <button class="original-button">Sign up</button>
-        </div>
-        <img class="top-photo" src="img/pexels-eberhard-grossgasteiger-572897.jpg" alt="Mountains with stars">
-    </div>
-    <div class="middle-content">
-        <h2>Some random information.</h2>
-        <div class="illustration">
-            <img class="small"src="img/pawn.svg" alt="Pawn">
-            <div class="middle-text">This is some subtext under an illustration or image.</div>
-        </div>
-        <div class="illustration">
-            <img class="small" src="img/pawn.svg" alt="Pawn">
-            <div class="middle-text">This is some subtext under an illustration or image.</div>
-        </div>
-        <div class="illustration">
-            <img class="small" src="img/pawn.svg" alt="Pawn">
-            <div class="middle-text">This is some subtext under an illustration or image.</div>
-        </div>
-        <div class="illustration">
-            <img class="small" src="img/pawn.svg" alt="Pawn">
-            <div class="middle-text">This is some subtext under an illustration or image.</div>
-        </div>
-    </div>
-    <div class="quote-content">
-        <div class="quote">Buy a man eat fish, the day. Teach men, to life time</div>
-        <div class="quote-author">Joe Biden?</div>
-    </div>
-    <div class="bottom-content">
-        <div class="sign-up-box">
-            <div class="box-left">
-                <div class="box-title">Call to action! It's time</div>
-                <div class="box-text">Sign up for our button by clicking that button over there!</div>
+    </header>
+    <div class="hero-content">
+        <div class="container">
+            <div class="right-hero-content">
+                <h1>This website is awesome</h1>
+                <p class="text">This website has some subtext that goes here under the main title. It is a smaller font and the color is lower contrast.</p>
+                <div class="button-section">
+                    <button class="original-button">Sign up</button>
+                </div>
             </div>
-            <button class="inverse-button">Sign up</button>
+            <img class="hero-photo" src="img/pexels-eberhard-grossgasteiger-572897.jpg" alt="Mountains with stars">
         </div>
     </div>
-    <div class="footer">
-        <div class="copyright-text">
-            Copyriht @ Henrik Hellem 2022
+    <div class="random-content">
+        <h2>Some random information.</h2>
+        <div class="container">
+            <div class="random-photo">
+                <img class="small"src="img/pawn.svg" alt="Pawn">
+                <div class="middle-text">This is some subtext under an illustration or image.</div>
+            </div>
+            <div class="random-photo">
+                <img class="small" src="img/pawn.svg" alt="Pawn">
+                <div class="middle-text">This is some subtext under an illustration or image.</div>
+            </div>
+            <div class="random-photo">
+                <img class="small" src="img/pawn.svg" alt="Pawn">
+                <div class="middle-text">This is some subtext under an illustration or image.</div>
+            </div>
+            <div class="random-photo">
+                <img class="small" src="img/pawn.svg" alt="Pawn">
+                <div class="middle-text">This is some subtext under an illustration or image.</div>
+            </div>
+        </div>
+    </div> 
+    <div class="quote-content">
+        <div class="container">
+            <div class="quote-section">
+                <div class="quote">
+                    Buy a man eat fish, he day, teach fish man, to a lifetime. 
+                </div>
+                <div class="quote-author">
+                    -Joe Biden (?)
+                </div>
+            </div>
         </div>
     </div>
+    <div class="subscription-section">
+        <div class="subscription-box">
+            <div class="box-left">
+                <div class="box-headline">
+                    Call to action! It's time!
+                </div>
+                <div class="box-subtext">
+                    Sign up for our product by cliking that button over there!
+                </div>
+            </div>
+            <button class="button-inverse">
+                Sign up
+            </button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="copyright-text">
+                Copyright @ Henrik Hellem 2022
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
